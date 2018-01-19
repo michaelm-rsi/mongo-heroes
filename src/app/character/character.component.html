@@ -1,0 +1,6 @@
+<div *ngFor="let character of characters">
+<h2>{{character.name}}</h2>
+<h3>alias {{character.alias}}</h3>
+<p>{{character.description}}</p>
+<div [innerHTML]="character.traits | trait"></div>
+</div>

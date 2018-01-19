@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  // Create an instance of the DataService through dependency injection
+  constructor() {}
 }
